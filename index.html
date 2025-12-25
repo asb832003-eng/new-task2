@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar-icons">
+            <div class="logo-box">
+                <div class="logo-circle">Pd</div>
+            </div>
+            <nav class="main-nav">
+                <i class="fas fa-home"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-calendar-alt"></i>
+                <i class="fas fa-chart-line"></i>
+                <i class="fas fa-user"></i>
+            </nav>
+            <div class="settings-bottom">
+                <i class="fas fa-cog"></i>
+            </div>
+        </aside>
+
+        <aside class="sidebar-menu">
+            <div class="menu-header">
+                <i class="fas fa-chevron-left"></i>
+                <span>settings</span>
+            </div>
+            <ul class="menu-list">
+                <li class="active"><i class="fas fa-pen"></i> Edit profile</li>
+                <li><i class="fas fa-bell"></i> Notification</li>
+                <li><i class="fas fa-lock"></i> Security</li>
+                <li><i class="fas fa-th-large"></i> Appearance</li>
+                <li><i class="fas fa-question-circle"></i> Help</li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <header class="content-header">
+                <h1>Edit profile</h1>
+                <div class="header-right">
+                    <i class="fas fa-bell notification-dot"></i>
+                    <img src="unsplash_C8Ta0gwPbQg.png" alt="Profile" class="top-avatar">
+                </div>
+            </header>
+
+            <section class="profile-section">
+                <div class="avatar-container">
+                    <img src="unsplash_C8Ta0gwPbQg.png" alt="User">
+                </div>
+
+                <form class="profile-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Mehrab">
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Bozorgi">
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Email</label>
+                        <div class="input-wrapper">
+                            <input type="email" placeholder="Mehrabbozorgi.business@gmail.com">
+                            <i class="fas fa-check-square success-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Address</label>
+                        <input type="text" placeholder="33062 Zboncak isle">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Contact Number</label>
+                        <input type="text" placeholder="58077.79">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>City</label>
+                            <select>
+                                <option>Mehrab</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>State</label>
+                            <select>
+                                <option>Bozorgi</option>
+                                <option >brazil</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Password</label>
+                        <div class="input-wrapper">
+                            <input type="password" placeholder="sdbfbnd65sfdvb s">
+                            <i class="fas fa-check-square success-icon green"></i>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel">Cancel</button>
+                        <button type="submit" class="btn-save">Save</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
